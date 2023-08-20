@@ -1,11 +1,5 @@
 import React from "react";
-import {
-    OrderCallClose,
-    OrderCallWrapper,
-    OrderCloseImg,
-    OrderForm, OrderFormButton, OrderFormMessageInput, OrderFormShortInput, OrderFormShortInputBlock, OrderFormTelInput,
-    OrderTitle
-} from "./OrderCall.styled";
+import * as S from "./OrderCall.styled";
 import close from '../../assets/images/closeBtn.png'
 import {useNavigate} from "react-router-dom";
 
@@ -22,24 +16,24 @@ export const OrderCall: React.FC = () => {
         navigate('/services')
     }
     return (
-        <OrderCallWrapper>
-            <OrderCallClose onClick={handleClose}>
-                <OrderCloseImg src={close} alt='close'/>
-            </OrderCallClose>
-            <OrderTitle>
+        <S.OrderCallWrapper>
+            <S.OrderCallClose onClick={handleClose}>
+                <S.OrderCloseImg src={close} alt='close'/>
+            </S.OrderCallClose>
+            <S.OrderTitle>
                 Պատվիրել զանգ
-            </OrderTitle>
-            <OrderForm onSubmit={handleOrderCall}>
-                <OrderFormShortInputBlock>
-                    <OrderFormShortInput type='text' placeholder='Անուն'/>
-                    <OrderFormShortInput type='text' placeholder='Ազգանուն'/>
-                </OrderFormShortInputBlock>
-                <OrderFormTelInput type='tel' placeholder='Հեռախեսահամար'/>
-                <OrderFormMessageInput type='text' placeholder='Ծառայության անվանումը'/>
-                <OrderFormButton>
+            </S.OrderTitle>
+            <S.OrderForm onSubmit={handleOrderCall}>
+                <S.OrderFormShortInputBlock>
+                    <S.OrderFormShortInput type='text' placeholder='Անուն'/>
+                    <S.OrderFormShortInput type='text' placeholder='Ազգանուն'/>
+                </S.OrderFormShortInputBlock>
+                <S.OrderFormTelInput type='tel' placeholder='Հեռախեսահամար'/>
+                <S.OrderFormMessageInput type='text' placeholder='Ծառայության անվանումը'/>
+                <S.OrderFormButton>
                     ՊԱՏՎԻՐԵԼ
-                </OrderFormButton>
-            </OrderForm>
-        </OrderCallWrapper>
+                </S.OrderFormButton>
+            </S.OrderForm>
+        </S.OrderCallWrapper>
     );
 }

@@ -1,17 +1,17 @@
 import React from "react";
-import {PartnersVaga, PartnersWrapper, VagaFarmImg, VagaImg} from "./Partners.styled";
+import * as S from "./Partners.styled";
 import vaga from "../../assets/images/vaga.png";
 
 export const Partners: React.FC = () => {
     return (
-        <PartnersWrapper>
-            <PartnersVaga>
+        <S.PartnersWrapper>
+            <S.PartnersVaga>
                 {Array.from({ length: 6 }).map((_, index) => (
-                    <VagaImg>
-                        <VagaFarmImg key={index} src={vaga} alt='vaga'/>
-                    </VagaImg>
+                    <S.VagaImg>
+                        <S.VagaFarmImg key={index} src={vaga} alt='vaga'/>
+                    </S.VagaImg>
                 ))}
-            </PartnersVaga>
-        </PartnersWrapper>
+            </S.PartnersVaga>
+        </S.PartnersWrapper>
     );
 };

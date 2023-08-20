@@ -1,22 +1,5 @@
 import React, {useState} from "react";
-import {
-    FilterBandageCount,
-    FilterBandageLayers,
-    FilterBandagesImg,
-    FilterBandageSize,
-    FilterBandageTitle,
-    FilterButtons,
-    FilterDivMocks,
-    FilteredItems,
-    FilteredItemsButtons,
-    ProductsFilterWrapper,
-    ProductsWrapper,
-    SingleProductBlock,
-    SingleProductImageBlock, SingleProductInfoAdBlock,
-    SingleProductInfoBlock,
-    SingleProductInfoDesc,
-    SingleProductInfoTitle
-} from "./Products.styled";
+import * as S from"./Products.styled";
 import {AboutItems} from "./AboutItems";
 
 export const Products: React.FC = () => {
@@ -24,40 +7,40 @@ export const Products: React.FC = () => {
     const [selectedProduct, setSelectedProduct] = useState<number>(0)
     return (
 
-        <ProductsWrapper>
-            <ProductsFilterWrapper>
-                <FilterButtons onClick={() => {
+        <S.ProductsWrapper>
+            <S.ProductsFilterWrapper>
+                <S.FilterButtons onClick={() => {
                     setProductCategory('Բինտեր')
                     setSelectedProduct(0)
-                }}>Բինտեր</FilterButtons>
-                <FilterButtons onClick={() => {
+                }}>Բինտեր</S.FilterButtons>
+                <S.FilterButtons onClick={() => {
                     setProductCategory('թանզիֆՆԵՐ')
                     setSelectedProduct(0)
-                }}>ԹանզիֆՆԵՐ</FilterButtons>
-                <FilterButtons onClick={() => {
+                }}>ԹանզիֆՆԵՐ</S.FilterButtons>
+                <S.FilterButtons onClick={() => {
                     setProductCategory('անձեռոցիկներ')
                     setSelectedProduct(0)
-                }}>Անձեռոցիկներ</FilterButtons>
-                <FilterButtons onClick={() => {
+                }}>Անձեռոցիկներ</S.FilterButtons>
+                <S.FilterButtons onClick={() => {
                     setProductCategory('ԹՈՓԵՐ')
                     setSelectedProduct(0)
-                }}>ԹՈՓԵՐ</FilterButtons>
-            </ProductsFilterWrapper>
-            <FilteredItems>
+                }}>ԹՈՓԵՐ</S.FilterButtons>
+            </S.ProductsFilterWrapper>
+            <S.FilteredItems>
                 {selectedProduct
                     ? AboutItems.filter(e => e.id === selectedProduct).map(({id, img, title, size, count, layers}) => (
-                        <SingleProductBlock key={id}>
-                            <SingleProductImageBlock>
-                                <FilterBandagesImg src={img} alt='bandage'/>
-                            </SingleProductImageBlock>
-                            <SingleProductInfoBlock>
-                                <SingleProductInfoTitle>{title}</SingleProductInfoTitle>
-                                <SingleProductInfoAdBlock>
-                                    {size ? <FilterBandageSize>{size}</FilterBandageSize> : null}
-                                    {layers ? <FilterBandageLayers>{layers}</FilterBandageLayers> : null}
-                                    {count ? <FilterBandageCount>{count}</FilterBandageCount> : null}
-                                </SingleProductInfoAdBlock>
-                                <SingleProductInfoDesc>
+                        <S.SingleProductBlock key={id}>
+                            <S.SingleProductImageBlock>
+                                <S.FilterBandagesImg src={img} alt='bandage'/>
+                            </S.SingleProductImageBlock>
+                            <S.SingleProductInfoBlock>
+                                <S.SingleProductInfoTitle>{title}</S.SingleProductInfoTitle>
+                                <S.SingleProductInfoAdBlock>
+                                    {size ? <S.FilterBandageSize>{size}</S.FilterBandageSize> : null}
+                                    {layers ? <S.FilterBandageLayers>{layers}</S.FilterBandageLayers> : null}
+                                    {count ? <S.FilterBandageCount>{count}</S.FilterBandageCount> : null}
+                                </S.SingleProductInfoAdBlock>
+                                <S.SingleProductInfoDesc>
                                     Բինտեր, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ
                                     մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of
                                     the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -72,23 +55,23 @@ export const Products: React.FC = () => {
                                     unknown printer took a galley of type and scrambled it to make a type specimen
                                     book. It has survived not only five centuries, but also the leap into electronic
                                     typesetting,
-                                </SingleProductInfoDesc>
-                            </SingleProductInfoBlock>
-                        </SingleProductBlock>
+                                </S.SingleProductInfoDesc>
+                            </S.SingleProductInfoBlock>
+                        </S.SingleProductBlock>
                     ))
                     : AboutItems.filter(e => e.category === productCategory).map(({id, img, title, size, count, layers}) => (
-                        <FilterDivMocks key={id}>
-                            <FilterBandagesImg src={img} alt='bandage'/>
-                            <FilterBandageTitle>{title}</FilterBandageTitle>
-                            <FilterBandageSize>{size}</FilterBandageSize>
-                            <FilterBandageLayers>{layers}</FilterBandageLayers>
-                            <FilterBandageCount>{count}</FilterBandageCount>
-                            <FilteredItemsButtons onClick={() => setSelectedProduct(id)}>ՏԵՍՆԵԼ Ավելին</FilteredItemsButtons>
-                        </FilterDivMocks>
+                        <S.FilterDivMocks key={id}>
+                            <S.FilterBandagesImg src={img} alt='bandage'/>
+                            <S.FilterBandageTitle>{title}</S.FilterBandageTitle>
+                            <S.FilterBandageSize>{size}</S.FilterBandageSize>
+                            <S.FilterBandageLayers>{layers}</S.FilterBandageLayers>
+                            <S.FilterBandageCount>{count}</S.FilterBandageCount>
+                            <S.FilteredItemsButtons onClick={() => setSelectedProduct(id)}>ՏԵՍՆԵԼ Ավելին</S.FilteredItemsButtons>
+                        </S.FilterDivMocks>
                     ))
                 }
-            </FilteredItems>
+            </S.FilteredItems>
 
-        </ProductsWrapper>
+        </S.ProductsWrapper>
     );
 };

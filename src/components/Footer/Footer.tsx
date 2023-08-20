@@ -6,55 +6,40 @@ import location from '../../assets/images/location.png';
 import facebook from '../../assets/images/facebooke.png';
 import twiter from '../../assets/images/twiter.png';
 import instagram from '../../assets/images/instagram.png';
-import {
-    FooterContacts,
-    FooterContactsTitle,
-    FooterContainer,
-    FooterLogo,
-    FooterLogoDiv,
-    FooterProduct,
-    FooterProductLi,
-    FooterProductUl,
-    FooterReference,
-    FooterReferenceImg,
-    FooterSocial, FooterSocialImg, FooterSocialReference,
-    FooterSocialTitle,
-    FooterTitleProduct,
-    FooterWrapper
-} from "./Footer.styled";
+import * as S from "./Footer.styled";
 
 export const Footer: React.FC = () => {
     return (
-        <FooterWrapper>
-<FooterContainer>
-    <FooterLogoDiv>
-        <FooterLogo src={logo} alt='logo'/>
-    </FooterLogoDiv>
-    <FooterProduct>
-        <FooterTitleProduct>ԱՐՏԱԴՐԱՆՔ</FooterTitleProduct>
-        <FooterProductUl>
-            <FooterProductLi> ՀԵՂՈՒԿՆԵՐ</FooterProductLi>
-            <FooterProductLi>ՔՍՈՒՔՆԵՐ</FooterProductLi>
-            <FooterProductLi>ՅՈՒՂԵՐ</FooterProductLi>
-            <FooterProductLi>ՈԳԵԹՈՒՐՄԵՐ</FooterProductLi>
-            <FooterProductLi>ՓՈՇԻՆԵՐ</FooterProductLi>
-            <FooterProductLi>ՄԱՇԿԻ ԽՆԱՄՔԻ ՄԻՋՈՑՆԵՐ</FooterProductLi>
-        </FooterProductUl>
-    </FooterProduct>
-    <FooterContacts>
-        <FooterContactsTitle>ԿԱՊ ՄԵԶ ՀԵՏ</FooterContactsTitle>
+        <S.FooterWrapper>
+<S.FooterContainer>
+    <S.FooterLogoDiv>S.
+        <S.FooterLogo src={logo} alt='logo'/>
+    </S.FooterLogoDiv>
+    <S.FooterProduct>
+        <S.FooterTitleProduct>ԱՐՏԱԴՐԱՆՔ</S.FooterTitleProduct>
+        <S.FooterProductUl>
+            <S.FooterProductLi> ՀԵՂՈՒԿՆԵՐ</S.FooterProductLi>
+            <S.FooterProductLi>ՔՍՈՒՔՆԵՐ</S.FooterProductLi>
+            <S.FooterProductLi>ՅՈՒՂԵՐ</S.FooterProductLi>
+            <S.FooterProductLi>ՈԳԵԹՈՒՐՄԵՐ</S.FooterProductLi>
+            <S.FooterProductLi>ՓՈՇԻՆԵՐ</S.FooterProductLi>
+            <S.FooterProductLi>ՄԱՇԿԻ ԽՆԱՄՔԻ ՄԻՋՈՑՆԵՐ</S.FooterProductLi>
+        </S.FooterProductUl>
+    </S.FooterProduct>
+    <S.FooterContacts>
+        <S.FooterContactsTitle>ԿԱՊ ՄԵԶ ՀԵՏ</S.FooterContactsTitle>
 
-        <FooterReference href=''><FooterReferenceImg src={tel} alt='photo'/>  Զանգահարեք մեզ: +374 90 000 000</FooterReference>
-        <FooterReference href=''> <FooterReferenceImg src={posts} alt='photo'/>  Էլ հասցե: @mail.ru</FooterReference>
-        <FooterReference href=''><FooterReferenceImg src={location} alt='photo'/>  Երևան</FooterReference>
-    </FooterContacts>
-    <FooterSocial>
-        <FooterSocialTitle>ՓՆՏՐԵՔ ՄԵԶ։</FooterSocialTitle>
-        <FooterSocialReference href='#'><FooterSocialImg src={facebook} alt='facebook'/></FooterSocialReference>
-    <FooterSocialReference href='#'> <FooterSocialImg src={twiter} alt='twiter'/></FooterSocialReference>
-        <FooterSocialReference href='#'><FooterSocialImg src={instagram} alt='instagram'/></FooterSocialReference>
-    </FooterSocial>
-</FooterContainer>
-        </FooterWrapper>
+        <S.FooterReference href=''><S.FooterReferenceImg src={tel} alt='photo'/>  Զանգահարեք մեզ: +374 90 000 000</S.FooterReference>
+        <S.FooterReference href=''> <S.FooterReferenceImg src={posts} alt='photo'/>  Էլ հասցե: @mail.ru</S.FooterReference>
+        <S.FooterReference href=''><S.FooterReferenceImg src={location} alt='photo'/>  Երևան</S.FooterReference>
+    </S.FooterContacts>
+    <S.FooterSocial>
+        <S.FooterSocialTitle>ՓՆՏՐԵՔ ՄԵԶ։</S.FooterSocialTitle>
+        <S.FooterSocialReference href='#'><S.FooterSocialImg src={facebook} alt='facebook'/></S.FooterSocialReference>
+    <S.FooterSocialReference href='#'> <S.FooterSocialImg src={twiter} alt='twiter'/></S.FooterSocialReference>
+        <S.FooterSocialReference href='#'><S.FooterSocialImg src={instagram} alt='instagram'/></S.FooterSocialReference>
+    </S.FooterSocial>
+</S.FooterContainer>
+        </S.FooterWrapper>
     );
 };

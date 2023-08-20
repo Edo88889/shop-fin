@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 //styles
-import {HeaderLogo, HeaderWrapper, LanguageImg, LanguageItem, Languages, NavbarWrapper} from './Header.styled';
+import * as S from './Header.styled';
 //images
 import Logo from '../../assets/images/logo.png';
 import flagAM from '../../assets/images/flag.png';
@@ -20,19 +20,19 @@ export const Header: React.FC = () => {
         }
     }, [storageLanguage,language]);
     return (
-        <HeaderWrapper>
-            <HeaderLogo src={Logo} alt={'vaga-pharm-logo'}/>
-            <NavbarWrapper>
+        <S.HeaderWrapper>
+            <S.HeaderLogo src={Logo} alt={'vaga-pharm-logo'}/>
+            <S.NavbarWrapper>
                 <Navbar/>
-                <Languages>
-                    <LanguageItem onClick={()=>setLanguage('am')}>
-                        <LanguageImg src={flagAM}/>
-                    </LanguageItem>
-                    <LanguageItem onClick={()=>setLanguage('en')}>
-                        <LanguageImg src={flagUSA}/>
-                    </LanguageItem>
-                </Languages>
-            </NavbarWrapper>
-        </HeaderWrapper>
+                <S.Languages>
+                    <S.LanguageItem onClick={()=>setLanguage('am')}>
+                        <S.LanguageImg src={flagAM}/>
+                    </S.LanguageItem>
+                    <S.LanguageItem onClick={()=>setLanguage('en')}>
+                        <S.LanguageImg src={flagUSA}/>
+                    </S.LanguageItem>
+                </S.Languages>
+            </S.NavbarWrapper>
+        </S.HeaderWrapper>
     );
 };

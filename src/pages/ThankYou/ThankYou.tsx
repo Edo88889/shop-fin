@@ -1,12 +1,5 @@
 import React from "react";
-import {
-    ThankYouCheckImages, ThankYouCheckImagesMark,
-    ThankYouDesc,
-    ThankYouImagesBlock,
-    ThankYouTitle,
-    ThankYouWrapper,
-    ThankYouBlock, ThankYouCallClose, ThankYouCloseImg
-} from "./ThankYou.styled";
+import * as S from "./ThankYou.styled";
 import checkEllipse from '../../assets/images/checkEllipse.png'
 import checkMark from '../../assets/images/checkMark.png'
 import {useNavigate, useParams} from "react-router-dom";
@@ -19,22 +12,22 @@ export const ThankYou: React.FC = () => {
         navigate('/')
     }
     return (
-        <ThankYouWrapper>
-            <ThankYouCallClose onClick={handleClose}>
-                <ThankYouCloseImg src={close} alt='close'/>
-            </ThankYouCallClose>
-            <ThankYouBlock>
-            <ThankYouTitle>
+        <S.ThankYouWrapper>
+            <S.ThankYouCallClose onClick={handleClose}>
+                <S.ThankYouCloseImg src={close} alt='close'/>
+            </S.ThankYouCallClose>
+            <S.ThankYouBlock>
+            <S.ThankYouTitle>
                 ՇՆՈՐՀԱԿԱԼՈՒԹՅՈՒՆ
-            </ThankYouTitle>
-            <ThankYouDesc>
+            </S.ThankYouTitle>
+            <S.ThankYouDesc>
                 {method === 'order' ? 'ՄԵՐ ՄԱՍՆԱԳԵՏԸ ԿԱՊ ԿՀԱՍՏԱՏԻ ՁԵԶ ՀԵՏ':'ՄԵՐ ՄԱՍՆԱԳԵՏԸ ԿՊԱՏԱՍԽԱՆԻ ՁԵԶ ԷԼ․ՓՈՍՏԻ ՄԻՋՈՑՈՎ'}
-            </ThankYouDesc>
-            <ThankYouImagesBlock>
-                <ThankYouCheckImages src={checkEllipse} alt='check'/>
-                <ThankYouCheckImagesMark src={checkMark} alt='check'/>
-            </ThankYouImagesBlock>
-            </ThankYouBlock>
-        </ThankYouWrapper>
+            </S.ThankYouDesc>
+            <S.ThankYouImagesBlock>
+                <S.ThankYouCheckImages src={checkEllipse} alt='check'/>
+                <S.ThankYouCheckImagesMark src={checkMark} alt='check'/>
+            </S.ThankYouImagesBlock>
+            </S.ThankYouBlock>
+        </S.ThankYouWrapper>
     )
 }
