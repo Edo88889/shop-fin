@@ -11,7 +11,6 @@ export const MainLayout: React.FC<{ children: ReactNode }> = ({ children }) => {
         <S.MainLayoutWrapper>
             <Header />
                 <main>{children}</main>
-
         </S.MainLayoutWrapper>
     <Footer />
         </>

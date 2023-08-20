@@ -6,6 +6,7 @@ export const AboutItems = [
         id: 1,
         img: bandages,
         title: 'բժշկական ԲԻՆՏ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '12 շերտ',
         category:'Բինտեր'
