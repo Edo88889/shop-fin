@@ -15,6 +15,7 @@ import decorPhoto from "../../assets/images/farmdecoration.png";
 import {useNavigate} from "react-router-dom";
 export const Services: React.FC = () => {
     const navigate = useNavigate();
+
     const handleOrderCall = ()=>{
         navigate('/order-call')
     }

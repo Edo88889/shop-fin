@@ -9,6 +9,13 @@
   "__comment__main": "home items",
   "home_banner_title": "FIRST IN ARMENIA",
   "home_banner_desc": "Bandages, tanzife manufacturer of sterile medical wipes, sterile and non-sterile medical dressings;",
-  "home_banner_button": "READ MORE"
+  "home_banner_button": "READ MORE",
+  "home_bandage_btns":"SEE More",
+  "home_bandage_btn":"SEE ALL",
+  "home_accessories_title": "STERILIZATION OF MEDICAL SUPPLIES",
+  "home_accessories_text": "We offer MEDICAL EQUIPMENT STERILIZATION",
+  "home_accessories_btn": "READ MORE",
+  "partners_title": "CO-WORKERS",
+  "partners_btn": "SEE ALL"
 }
 

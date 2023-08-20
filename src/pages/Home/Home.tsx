@@ -46,7 +46,8 @@ import {useNavigate} from "react-router-dom";
 
 export const Home: React.FC = () => {
     const navigate = useNavigate();
-    const handleSendMessage = () => {
+    const handleSendMessage = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
         if (1 === 1) {
             navigate('/thank-you/contact')
         }
@@ -74,22 +75,22 @@ export const Home: React.FC = () => {
                             <BandageLayers>{layers}</BandageLayers>
                             <BandageCount>{count}</BandageCount>
                             <BandageVector src={vector}/>
-                            <BandageButton>ՏԵՍՆԵԼ Ավելին</BandageButton>
+                            <BandageButton>{t('home_bandage_btns')}</BandageButton>
                         </DivMocks>
                     ))}
                 </>
-                <BandageBtn>ՏԵՍՆԵԼ ԱՄԲՈՂՋԸ</BandageBtn>
+                <BandageBtn>{t('home_bandage_btn')}</BandageBtn>
             </DivBandages>
             <AccessoriesDiv>
                 <AccessoriesInformation>
-                    <AccessoriesTitle>ԲԺՇԿԱԿԱՆ ՊԱՐԱԳԱՆԵՐԻ ՍՏԵՐԻԼԻԶԱՑՈՒՄ</AccessoriesTitle>
-                    <AccessoriesText>Մենք առաջարկում ենք ԲԺՇԿԱԿԱՆ ՊԱՐԱԳԱՆԵՐԻ ՍՏԵՐԻԼԻԶԱՑՈՒՄ</AccessoriesText>
-                    <AccessoriesBtn>ԿԱՐԴԱԼ ԱՎԵԼԻՆ</AccessoriesBtn>
+                    <AccessoriesTitle>{t('home_accessories_title')}</AccessoriesTitle>
+                    <AccessoriesText>{t('home_accessories_text')}</AccessoriesText>
+                    <AccessoriesBtn>{t('home_accessories_btn')}</AccessoriesBtn>
                 </AccessoriesInformation>
                 <AccessoriesImg src={accessories} alt='accessories'></AccessoriesImg>
                 <AccessoriesDecor src={accessoriesdecor} alt='accessoriesdecor'></AccessoriesDecor>
             </AccessoriesDiv>
-            <PartnersTitle>ԳՈՐԾԸՆԿԵՐՆԵՐ</PartnersTitle>
+            <PartnersTitle>{t('partners_title')}</PartnersTitle>
             <VagaGlobalDiv>
             {Array.from({ length: 6 }).map((_, index) => (
                 <VagaImg>
@@ -98,7 +99,7 @@ export const Home: React.FC = () => {
 
             ))}
             </VagaGlobalDiv>
-            <PartnersBtn>ՏԵՍՆԵԼ ԱՄԲՈՂՋԸ</PartnersBtn>
+            <PartnersBtn>{t('partners_btn')}</PartnersBtn>
             <ContactGlobalDiv>
                 <ContactDiv>
                     <ContactText>
@@ -113,11 +114,11 @@ export const Home: React.FC = () => {
                     <ContactImg src={mapImg} alt='map'/>
                     <ContactDecorImg src={mapDecor} alt='mapdecor'/>
                 </ContactDiv>
-                <ContactForm>
+                <ContactForm onSubmit={handleSendMessage}>
                     <FormName type='text' placeholder='Անուն'/>
                     <FormEmail type='email' placeholder='Էլ․հասցե'/>
                     <FormMessage placeholder='Հաղորդագրություն'/>
-                    <FormBtn type='submit' onClick={() => handleSendMessage()}>ՈՒՂԱՐԿԵԼ</FormBtn>
+                    <FormBtn type='submit'>ՈՒՂԱՐԿԵԼ</FormBtn>
                 </ContactForm>
             </ContactGlobalDiv>
         </>
