@@ -1,7 +1,6 @@
 import bandages from "../../assets/images/bandages.png";
 import tanzif from "../../assets/images/tanzif.png";
 import tops from "../../assets/images/tops.png";
-import React from "react";
 export const AboutItems = [
     {
         id: 1,
@@ -10,7 +9,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '12 շերտ',
-        category:'Բինտեր'
+        category:'Բինտեր',
+        desc:'                Բինտեր, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 2,
@@ -19,7 +32,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'Բինտեր'
+        category:'Բինտեր',
+        desc:'              բժշկական ԲԻՆՏ ոչ ՍՏԵՐԻԼ  Բինտեր, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 3,
@@ -28,7 +55,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'թանզիֆՆԵՐ'
+        category:'թանզիֆՆԵՐ',
+        desc:'              թանզիֆՆԵՐ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 4,
@@ -37,7 +78,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 5,
@@ -46,7 +101,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 6,
@@ -55,7 +124,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 7,
@@ -64,7 +147,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 8,
@@ -73,7 +170,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 9,
@@ -82,7 +193,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 10,
@@ -91,7 +216,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 11,
@@ -100,7 +239,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 12,
@@ -109,7 +262,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 13,
@@ -118,7 +285,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 14,
@@ -127,7 +308,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 15,
@@ -136,7 +331,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 16,
@@ -145,7 +354,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 17,
@@ -154,7 +377,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 18,
@@ -163,7 +400,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 19,
@@ -172,7 +423,21 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'անձեռոցիկներ'
+        category:'անձեռոցիկներ',
+        desc:'              անձեռոցիկներ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '                մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '                the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '                standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '                of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '                five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '                essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '                publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '                has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '                unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '                book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '                typesetting,'
     },
     {
         id: 20,
@@ -181,6 +446,20 @@ export const AboutItems = [
         size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '8 շերտ',
-        category:'ԹՈՓԵՐ'
+        category:'ԹՈՓԵՐ',
+        desc:'ԹՈՓԵՐ, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և ոչ\n' +
+            '  մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply dummy text of\n' +
+            '  the printing and typesetting industry. Lorem Ipsum has been the industry\'s\n' +
+            '  standard dummy text ever since the 1500s, when an unknown printer took a galley\n' +
+            '  of type and scrambled it to make a type specimen book. It has survived not only\n' +
+            '  five centuries, but also the leap into electronic typesetting, remaining\n' +
+            '  essentially unchanged. It was popularised in the 1960s with the release of\n' +
+            '  Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\n' +
+            '  publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem\n' +
+            '  Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum\n' +
+            '  has been the industry\'s standard dummy text ever since the 1500s, when an\n' +
+            '  unknown printer took a galley of type and scrambled it to make a type specimen\n' +
+            '  book. It has survived not only five centuries, but also the leap into electronic\n' +
+            '  typesetting,'
     },
 ]
