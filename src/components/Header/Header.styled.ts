@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import React from "react";
 
 export const HeaderWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   width: 100%;
   height: 78px;
 `;
@@ -15,9 +14,15 @@ export const HeaderLogo = styled.img`
 `;
 
 export const NavbarWrapper = styled.div`
-  display: flex;
+   display: flex;
 `;
 
-export const Languages = styled.div``;
+export const Languages = styled.div`
+  display: flex;
+`;
 export const LanguageItem = styled.div``;
-export const LanguageImg = styled.img``;
+export const LanguageImg = styled.img`
+  width: 27.621px;
+  height: 16.4px;
+  margin-left: 30px;
+`;

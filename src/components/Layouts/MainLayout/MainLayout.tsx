@@ -7,11 +7,14 @@ import * as S from './MainLayout.styled';
 
 export const MainLayout: React.FC<{ children: ReactNode }> = ({ children }) => {
     return (
+        <>
         <S.MainLayoutWrapper>
             <Header />
                 <main>{children}</main>
-            <Footer />
+
         </S.MainLayoutWrapper>
+    <Footer />
+        </>
     );
 };
 

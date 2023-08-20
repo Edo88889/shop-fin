@@ -11,7 +11,6 @@ export const AboutItems = [
         id: 1,
         img: bandages,
         title: 'բժշկական ԲԻՆՏ ոչ ՍՏԵՐԻԼ',
-        size: '7,5սմ 7,5սմ',
         count: '10 հատ',
         layers: '12 շերտ',
         category:'Բինտեր'
@@ -90,6 +89,96 @@ export const AboutItems = [
     },
     {
         id: 10,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 11,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 12,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 13,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 14,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 15,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 16,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 17,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 18,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 19,
+        img: bandages,
+        title: 'բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ',
+        size: '7,5սմ 7,5սմ',
+        count: '10 հատ',
+        layers: '8 շերտ',
+        category:'անձեռոցիկներ'
+    },
+    {
+        id: 20,
         img: tops,
         title: 'ԹՈՓԵՐ',
         size: '7,5սմ 7,5սմ',

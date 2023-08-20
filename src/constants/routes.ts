@@ -4,5 +4,7 @@ export const Paths = {
     Products: '/products',
     Services: '/services',
     Partners: '/partners',
-    ContactUs: '/Services'
+    ContactUs: '/contactus',
+    ThankYou: '/thank-you/:method',
+    OrderCall: '/order-call'
 };
