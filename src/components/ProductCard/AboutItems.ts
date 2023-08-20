@@ -1,6 +1,7 @@
 import bandages from "../../assets/images/bandages.png";
 import tanzif from "../../assets/images/tanzif.png";
 import tops from "../../assets/images/tops.png";
+import React from "react";
 export const AboutItems = [
     {
         id: 1,
