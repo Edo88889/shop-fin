@@ -16,7 +16,7 @@ export const ThankYou: React.FC = () => {
     const {method} = useParams();
     const navigate = useNavigate();
     const handleClose = ()=>{
-        navigate('/services')
+        navigate('/')
     }
     return (
         <ThankYouWrapper>

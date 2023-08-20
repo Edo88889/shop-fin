@@ -1,17 +1,10 @@
 import React from "react";
-// @ts-ignore
 import logo from '../../assets/images/footerlogo.png';
-// @ts-ignore
 import tel from '../../assets/images/tel.png';
-// @ts-ignore
 import posts from '../../assets/images/posts.png';
-// @ts-ignore
 import location from '../../assets/images/location.png';
-// @ts-ignore
 import facebook from '../../assets/images/facebooke.png';
-// @ts-ignore
 import twiter from '../../assets/images/twiter.png';
-// @ts-ignore
 import instagram from '../../assets/images/instagram.png';
 import {
     FooterContacts,
@@ -31,7 +24,6 @@ import {
 } from "./Footer.styled";
 
 export const Footer: React.FC = () => {
-    // @ts-ignore
     return (
         <FooterWrapper>
 <FooterContainer>

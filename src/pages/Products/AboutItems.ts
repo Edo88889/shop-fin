@@ -1,11 +1,6 @@
-// @ts-ignore
 import bandages from "../../assets/images/bandages.png";
-// @ts-ignore
 import tanzif from "../../assets/images/tanzif.png";
-// @ts-ignore
 import tops from "../../assets/images/tops.png";
-
-
 export const AboutItems = [
     {
         id: 1,

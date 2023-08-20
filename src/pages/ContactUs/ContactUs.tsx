@@ -1,7 +1,5 @@
 import React from "react";
-// @ts-ignore
 import mapImg from "../../assets/images/map.png";
-// @ts-ignore
 import mapDecor from "../../assets/images/mapdecor.png";
 import {
     ContactWrapper,
@@ -18,12 +16,12 @@ import {
     from "./ContactUs.styled";
 import {useNavigate} from "react-router-dom";
 
-// @ts-ignore
 
 
 export const ContactUs: React.FC = () => {
     const navigate = useNavigate();
-    const handleSendMessage = () => {
+    const handleSendMessage = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
         if (1 === 1) {
             navigate('/thank-you/contact')
         }
@@ -44,12 +42,12 @@ export const ContactUs: React.FC = () => {
                     <ContactImg src={mapImg} alt='map'/>
                     <ContactDecorImg src={mapDecor} alt='mapdecor'/>
                 </ContactDiv>
-                <ContactForm>
+                <ContactForm onSubmit={handleSendMessage}>
                     <ContactTitle>ԿԱՊՆՎԵՔ ՄԵԶ ՀԵՏ ՀԻՄԱ</ContactTitle>
                     <FormName type='text' placeholder='Անուն'/>
                     <FormEmail type='email' placeholder='Էլ․հասցե'/>
                     <FormMessage placeholder='Հաղորդագրություն'/>
-                    <FormBtn type='submit' onClick={() => {handleSendMessage()}}>ՈՒՂԱՐԿԵԼ</FormBtn>
+                    <FormBtn type='submit'>ՈՒՂԱՐԿԵԼ</FormBtn>
                 </ContactForm>
             </ContactGlobalDiv>
         </ContactWrapper>

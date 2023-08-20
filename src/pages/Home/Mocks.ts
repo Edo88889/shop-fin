@@ -1,6 +1,4 @@
-// @ts-ignore
 import bandages from '../../assets/images/bandages.png'
-// @ts-ignore
 import vector from '../../assets/images/Vector.png'
 export const Mocks = [
     {
